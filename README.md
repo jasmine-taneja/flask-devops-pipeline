@@ -28,4 +28,13 @@ A fully automated **CI/CD pipeline** for a Python Flask web application, built w
 ---
 
 ## 📁 Project Structure
+.
+├── app.py                     # Main Flask application
+├── Dockerfile                 # Instructions to containerize the app
+├── docker-compose.yml         # Defines services for local testing
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml          # GitHub Actions CI/CD workflow
+├── deploy.sh                  # Shell script to deploy to AWS EC2 via SSH
+└── sonar-project.properties   # Configuration file for SonarCloud analysis
 
